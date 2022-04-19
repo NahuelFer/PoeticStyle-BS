@@ -1,0 +1,25 @@
+p{
+    max-inline-size: 40rem;
+}
+
+.item:hover{
+transform: scale(108%);
+transition: 1.3s;
+}
+
+
+.item-footer{
+    width: 150%;
+}
+
+
+.link-categorias:hover{
+    transform: scale(108%);
+    transition: 1.3s;
+}
+
+/* NOSOTROS */
+
+.img.nosotros:hover{
+    border-color: yellow;
+}
