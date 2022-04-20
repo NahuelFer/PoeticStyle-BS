@@ -1,38 +1,3 @@
-p {
-  max-inline-size: 40rem;
-}
-
-.item:hover {
-  transform: scale(108%);
-  transition: 1.3s;
-}
-
-.item-footer {
-  width: 150%;
-}
-
-.botones {
-  transition: 2s;
-}
-
-.botones:hover {
-  transform: scale(115%);
-}
-
-.expand-title {
-  transition: 0.8s;
-}
-
-.expand-title:hover {
-  transform: scale(110%);
-}
-
-/* NOSOTROS */
-.img.nosotros:hover {
-  border-color: yellow;
-}
-
-/* ANIMACIONES */
 @keyframes aparecer {
   from {
     opacity: 0%;
@@ -77,6 +42,37 @@ p {
 .aparecer {
   animation-name: aparecer;
   animation-duration: 2s;
+}
+
+.img.nosotros:hover {
+  border-color: yellow;
+}
+
+p {
+  max-inline-size: 40rem;
+}
+
+.item:hover {
+  transform: scale(108%);
+  transition: 1.3s;
+}
+
+.item-footer {
+  width: 150%;
+}
+
+.botones {
+  transition: 2s;
+}
+.botones:hover {
+  transform: scale(115%);
+}
+
+.expand-title {
+  transition: 0.8s;
+}
+.expand-titlehover {
+  transform: scale(110%);
 }
 
 /*# sourceMappingURL=style.css.map */
