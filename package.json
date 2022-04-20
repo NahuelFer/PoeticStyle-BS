@@ -1,0 +1,20 @@
+{
+  "name": "poeticstyle-bs",
+  "version": "1.0.0",
+  "description": "Proyecto final para el curso de Desarrollo Web de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahuelFer/PoeticStyle-BS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahuelFer/PoeticStyle-BS/issues"
+  },
+  "homepage": "https://github.com/NahuelFer/PoeticStyle-BS#readme"
+}

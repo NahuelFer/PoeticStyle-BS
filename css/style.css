@@ -1,83 +1,82 @@
-p{
-    max-inline-size: 40rem;
+p {
+  max-inline-size: 40rem;
 }
 
-.item:hover{
-transform: scale(108%);
-transition: 1.3s;
+.item:hover {
+  transform: scale(108%);
+  transition: 1.3s;
 }
 
-
-.item-footer{
-    width: 150%;
+.item-footer {
+  width: 150%;
 }
 
-.botones{
-    transition: 2s;
-}
-.botones:hover{
-    transform: scale(115%);
+.botones {
+  transition: 2s;
 }
 
-.expand-title{
-    transition: .8s;
+.botones:hover {
+  transform: scale(115%);
 }
 
-.expand-title:hover{
-    transform: scale(110%);
+.expand-title {
+  transition: 0.8s;
+}
+
+.expand-title:hover {
+  transform: scale(110%);
 }
 
 /* NOSOTROS */
-
-.img.nosotros:hover{
-    border-color: yellow;
+.img.nosotros:hover {
+  border-color: yellow;
 }
 
 /* ANIMACIONES */
-
-@keyframes aparecer{
-    from{opacity: 0%;}
-    to{opacity: 100%;}
+@keyframes aparecer {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
-
-.titulos{
-    animation-name: aparecer;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+.titulos {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 @keyframes slide-left {
-    from {
-        margin-left: -100%;
-      }
-    
-      to {
-        margin-left: 0%;
-      }
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.slide-left {
+  animation-name: slide-left;
+  animation-duration: 2.5s;
 }
 
-.slide-left{
-    animation-name: slide-left;
-    animation-duration: 2.5s;
+@keyframes slide-right {
+  from {
+    margin-right: -100%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+.slide-right {
+  animation-name: slide-right;
+  animation-duration: 2s;
 }
 
-@keyframes slide-right{
-    from{
-        margin-right: -100%;
-    }
-    
-    to{
-        margin-right: 0%;
-    }
+.aparecer {
+  animation-name: aparecer;
+  animation-duration: 2s;
 }
 
-.slide-right{
-    animation-name: slide-right;
-    animation-duration: 2s;
-}
-
-.aparecer{
-    animation-name: aparecer;
-    animation-duration: 2s;
-}
+/*# sourceMappingURL=style.css.map */
