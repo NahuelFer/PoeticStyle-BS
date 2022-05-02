@@ -1,3 +1,12 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  max-inline-size: 40rem;
+  font-size: small;
+}
+
 @keyframes aparecer {
   from {
     opacity: 0%;
@@ -48,10 +57,20 @@
   border-color: yellow;
 }
 
-p {
-  max-inline-size: 40rem;
+.contacto {
+  background-image: url(/Images/contacto\ fondo.jpg);
+  background-size: cover;
 }
 
+.main-contacto {
+  height: 720px;
+}
+
+@media (max-width: 425px) {
+  .main-contacto {
+    height: auto;
+  }
+}
 .item:hover {
   transform: scale(108%);
   transition: 1.3s;
@@ -71,7 +90,7 @@ p {
 .expand-title {
   transition: 0.8s;
 }
-.expand-titlehover {
+.expand-title:hover {
   transform: scale(110%);
 }
 

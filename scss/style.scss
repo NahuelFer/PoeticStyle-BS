@@ -1,9 +1,9 @@
+@import "reset";
 @import "animaciones";
 @import "nosotros";
+@import "contacto";
 
-p{
-    max-inline-size: 40rem;
-}
+
 
 .item:hover{
 transform: scale(108%);
@@ -25,10 +25,9 @@ transition: 1.3s;
 
 .expand-title{
     transition: .8s;
-        &hover{
+        &:hover{
             transform: scale(110%);
         }
 }
-
 
 
