@@ -7,6 +7,11 @@ p {
   font-size: small;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 @keyframes aparecer {
   from {
     opacity: 0%;
@@ -77,6 +82,38 @@ p {
     height: 500px;
   }
 }
+.btn-r, .btn-p, .btn-c, .btn-b {
+  color: black;
+  border-style: solid;
+  border-width: 0.6rem;
+  border-radius: 0.5rem;
+  border-color: #E11F96;
+  background-color: #E11F96;
+  height: 3rem;
+  width: 8rem;
+}
+
+.btn-b {
+  border-color: #367CE0;
+  background-color: #367CE0;
+  height: 3rem;
+  width: 8rem;
+}
+
+.btn-c {
+  border-color: #E09604;
+  background-color: #E09604;
+  height: 3rem;
+  width: 8rem;
+}
+
+.btn-p {
+  border-color: #39E02B;
+  background-color: #39E02B;
+  height: 3rem;
+  width: 8rem;
+}
+
 .item:hover {
   transform: scale(108%);
   transition: 1.3s;

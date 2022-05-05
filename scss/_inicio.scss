@@ -10,3 +10,34 @@
         height: 500px;
     }
 }
+
+.btn-r{
+    color: black;
+    border-style: solid;
+    border-width: .6rem;
+    border-radius: .5rem;
+    border-color: map-get($botones, remeras );
+    background-color: map-get($botones, remeras );
+    @include tamaño-botones;
+}
+
+.btn-b{
+    @extend .btn-r;
+    border-color: map-get($botones, buzos );
+    background-color: map-get($botones, buzos );
+    @include tamaño-botones;
+}
+
+.btn-c{
+    @extend .btn-r;
+    border-color: map-get($botones, camisas );
+    background-color: map-get($botones, camisas );
+    @include tamaño-botones;
+}
+
+.btn-p{
+    @extend .btn-r;
+    border-color: map-get($botones, pantalones );
+    background-color: map-get($botones, pantalones );
+    @include tamaño-botones;
+}
