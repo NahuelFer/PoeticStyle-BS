@@ -53,12 +53,8 @@ p {
   animation-duration: 2s;
 }
 
-.img.nosotros:hover {
-  border-color: yellow;
-}
-
 .contacto {
-  background-image: url(../../Images/contactofondo.jpg);
+  background-image: url(./../Images/contactofondo.jpg);
   background-size: cover;
 }
 
