@@ -58,7 +58,7 @@ p {
 }
 
 .contacto {
-  background-image: url(../Images/contactofondo.jpg);
+  background-image: url(../../Images/contactofondo.jpg);
   background-size: cover;
 }
 
@@ -69,6 +69,16 @@ p {
 @media (max-width: 425px) {
   .main-contacto {
     height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-inicio {
+    height: 420px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .card-inicio {
+    height: 500px;
   }
 }
 .item:hover {
