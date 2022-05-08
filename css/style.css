@@ -101,8 +101,8 @@ a {
 }
 
 .btn-c {
-  border-color: #E09604;
-  background-color: #E09604;
+  border-color: rgba(204, 142, 19, 0.9254901961);
+  background-color: rgba(204, 142, 19, 0.9254901961);
   height: 3rem;
   width: 8rem;
 }
@@ -112,6 +112,13 @@ a {
   background-color: #39E02B;
   height: 3rem;
   width: 8rem;
+}
+
+.card-categorias {
+  background-color: rgba(0, 0, 0, 0.842);
+}
+.card-categorias p {
+  color: white;
 }
 
 .item:hover {
