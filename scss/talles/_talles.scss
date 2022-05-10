@@ -1,0 +1,15 @@
+.talles{
+    background-image: url(../../Images/tallesfondo.jpg);
+    background-size: cover;
+}
+
+.main-talles{
+    height: 720px;
+}
+
+@media (max-width: 425px) {
+    .main-talles{
+        height: auto;
+    }
+}
+
