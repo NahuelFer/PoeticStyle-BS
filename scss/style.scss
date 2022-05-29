@@ -9,11 +9,13 @@
 @import "talles/talles";
 
 
-
-.item:hover{
-transform: scale(108%);
-transition: 1.3s;
+@media screen and (min-width: 1024px) {
+    .item:hover{
+        transform: scale(108%);
+        transition: 1.3s;
+        } 
 }
+
 
 
 .item-footer{
